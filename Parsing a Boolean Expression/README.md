@@ -33,6 +33,6 @@ First, evaluate &(f,t) --> (false AND true) --> false --> f. The expression is n
 Then, evaluate !(f) --> NOT false --> true. We return true.
 
 
-`Constraints:`
+**Constraints:**
 - `1 <= expression.length <= 2 * 10⁴`
 - expression[i] is one following characters: `'('`, `')'`, `'&'`, `'|'`, `'!'`, `'t'`, `'f'`, and `','`.
